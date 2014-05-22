@@ -6,7 +6,7 @@ angular.module('mean.cah').config(['$stateProvider',
             url: '/cah/example',
             templateUrl: 'cah/views/index.html'
         });
-        $stateProvider.state('cah room list', {
+        $stateProvider.state('cah rooms list', {
             url: '/cah/rooms',
             templateUrl: 'cah/views/index.html'
         });

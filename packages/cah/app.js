@@ -19,7 +19,7 @@ Cah.register(function(app, auth, database) {
     //We are adding a link to the main menu for all authenticated users
     Cah.menus.add({
         title: 'CAH',
-        link: 'cah example page',
+        link: 'cah rooms list',
         roles: ['authenticated'],
         menu: 'main'
     });
